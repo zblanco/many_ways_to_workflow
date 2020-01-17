@@ -22,7 +22,8 @@ defmodule OpOtp.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:uuid, "~> 1.1"},
+      {:ecto, "~> 3.3"},
+      {:phoenix_pubsub, "~> 1.1"},
     ]
   end
 end
